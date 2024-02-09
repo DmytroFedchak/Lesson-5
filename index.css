@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+.composer {
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 80px 20px;
+    padding: 10px;
+    position: relative;
+    background-color: aqua;
+}
+.name { 
+    position: absolute;
+    top: -50px;
+    left: 5px;
+}
+div.navbar {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    color: black;
+}
+.toplink {
+    
+    padding: 30px;
+    color: black;
+    display: inline;
+}
+.over{
+    background-color: aliceblue ;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 7px;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    float: left;
+}
+div.wds {
+    background-color: aliceblue;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+.op{
+    opacity: .8;
+}
+.op1{
+    opacity: .6;
+}
+.op2{
+    opacity: .4;
+}
+.op3{
+    opacity: .2;
+}
+.vis{
+    visibility: hidden;
+}
+.dis{
+    display: none;
+}
